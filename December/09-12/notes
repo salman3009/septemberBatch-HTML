@@ -1,0 +1,46 @@
+WWW - world wide web
+URL - uniform resoure locator
+http://www.google.com/service/index.html 
+default: http://wwww 
+Domain name:
+google.com -127.0.0.1 - IP address
+folder name:
+service
+file name:
+index.html
+example:
+http://www.laptopSearch.com/December/08-12/notes.html
+Domain name: 750 rupees per year 
+buy server - 250 rupees - 1000 users can able to access 
+total pay - 1000 
+per month - 250
+====================================
+Web development:
+html - hyper text markup language - content 
+css - cascading style sheet - presentation 
+javascript - to make web page dynamic 
+Frontend web developer:
+html
+css 
+javascript 
+reactjs - library/framework
+any website developing with html/css/javascript will take more time to develop. we need to think for all the problems. we need a solutions.
+we need to find from scratch.
+=======================================
+Reactjs 
+Nodejs/expressjs 
+Mongodb
+==============================
+Reactjs is used to develop dynamic websites.
+==============================================
+HTML:
+we need some editor to write the code:
+example:
+notepad
+notepadd++ 
+sublime 
+visual studio code 
+plugins support - some syntax error it will help you out.
+========================================
+how to install vs code
+================================
