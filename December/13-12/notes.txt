@@ -1,0 +1,45 @@
+How to save html file?
+1.please use small case letter without any space in between.
+2.after dot the extension should be html or htm
+example:
+1hello.html 
+table.html 
+form.html 
+
+short keyswords:
+1.how to save - Ctrl+s 
+2.how to copy - Ctrl+c 
+3.how to paste - Ctrl+v 
+4.how to create new - ctrl+n 
+5.how to terminate - ctrl+c 
+6.to select all files - ctrl+a
+==========================================
+Start writing html:
+1.everything will be enclosed in html tags. 
+2.always you will have two tags 1.opening tag 2.closing tag
+example:
+<>
+</>
+3.any browser if you take we have two sections 1.head section 2.body section 
+====================================
+1heading 
+2.paragraph tag 
+================================
+conclusion:
+1.first how to create new file for html 
+2.how to write html code 
+3.what is head and body section in html 
+4.how to write heading tags from h1 to h6 
+5.how to write paragraph tags 
+6.how to write both heading and paragraph tags together 
+7.how to view page source tag 
+8.how to edit html elements from browser 
+9.how to inspect the elements in other websites.
+=================================================
+
+
+
+
+
+
+
