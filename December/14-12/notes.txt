@@ -1,0 +1,38 @@
+How to provide title to Tab inside the browser using HTML?
+//To provide the title we need to write inside the head section 
+//We have to use title tag and inside that we can provide some label.
+Example:
+<head>
+<title>Section</title>
+</head>
+======================================
+HTML VERSION:
+1 TO 5 
+<!DOCTYPE html>
+//we are telling browser compiler to use the latest syntax validation 
+and latest keyword implemenation.
+//For above DOCTYPE tag we don't have closing tag .
+//There is sometype of tag where we don't have closing tag.
+//<!DOCTYPE html> indicates html 5 version. 
+=================================
+Attribute:
+1.extra information about that particular tag.
+example:
+property = value 
+//value should be in double quotes or single quotes 
+//property and value everything should be in small case.
+align = "center"
+align="left"
+align="right"
+align="justify"
+======================================
+How to use image inside the html:
+1.first download the image 
+2.save the image in particular location where your html file is present.
+3.please use save common extension.
+example:
+car.png 
+car.jpeg 
+car.jpg
+
+====================================
