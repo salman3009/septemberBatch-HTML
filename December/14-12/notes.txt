@@ -34,5 +34,10 @@ example:
 car.png 
 car.jpeg 
 car.jpg
-
 ====================================
+conclusion:
+1.title tag 
+2.DOCTYPE version explanation 
+3.Attribute - align - left|right|center|justify
+4.how to image tag and src attribute. 
+===================================
