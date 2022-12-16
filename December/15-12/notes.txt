@@ -3,15 +3,15 @@ Attributes of image:
 2.width  - you can use any positive integer number - 1 to infinity - 100 - 900
 3.height - you can use any positive integer number - 1 to infinity - 100-900
 4.alt - alternate - suppose image is not displayed then we can show the label to the user
-======================================
+===========================================
 HTML - hyper text markup language 
 hyper - link
 anchor tag - to implement link 
-============================
+=============================================
 conclusion:
 1.image - width,height,alt 
 2.how to give link using anchor tag 
 3.anchor = attribute - target - _self and _blank 
 4.how to use image inside the anchor tag 
 5.how to use br tag 
-===================================
+==============================================

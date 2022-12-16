@@ -1,0 +1,11 @@
+How to check browser response?
+//right and inspect select the device toolbar.
+How to do  internal links within the page using anchor tag.
+//first provide the anchor tag with href attribute with some unique name followed by #symbol.
+example:
+href = "#bmw" 
+//anywhere if we have those details provide with id attribute and followed by that name.
+example:
+id="bmw".
+//very much important point id should be unique throughout the html page.
+======================
