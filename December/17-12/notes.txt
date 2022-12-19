@@ -1,0 +1,32 @@
+1Hello Newton:
+Psuedo:
+<main class="newton" id="school">
+<p class="hello-newton">
+Hello Newton School
+</p>
+</main>
+===============================
+how to write comments:
+<!-- type -->
+=============================
+2.body tag:
+<body>
+<h1>
+Newton School
+</h1>
+<p>
+A server is a computer program or device that provides a service to another computer program and its user, also known as the client
+</p>
+</body>
+==========================
+3.favourite song:
+<div>
+<a href="">My current favourite song is <song name></a>
+</div>
+=======================
+ol - ordered list 
+li - list 
+Attributes:
+type = 1|i|a|A 
+start = 3 -->always should be number 
+================================
