@@ -1,0 +1,47 @@
+Table:
+//It is use to display detailed information of related or similar 
+items.
+//It consists of row and columns. 
+//always first row will be heading.
+Example:
+To create row ---> <tr></tr>
+To create column --><td></td>
+To create column with heading--><th></th>
+Attribute:
+1.border
+2.width
+3.align
+4.bgcolor - background color
+5.bordercolor
+6.cellpadding - it will create space in between the cell
+7.cellspacing - it will create space outside the cell.
+8.rowspan - combine one or more row together
+9.colspan - combine one or more column together
+10.caption - to provide heading to table.
+11.thead - just for information purpose for browser - indicates heading
+12.tbody - just for information purpose for browser - indicates body
+13.tfoot - just for information purpose for browser - indicates footer
+postion in html always we have four:
+1.top 
+2.bottom
+3.left
+4.right
+//always for all the values we have to use positive integer values.
+//nested tag is possible always block with inline element.
+example:
+<h1><b></b></h1> -->block+inline
+<a><b></b></a>--->inline+inline 
+<p><i></i></p>-->block+inline 
+<h2></h2>-->block
+<span></span>-->inline 
+=============================================
+Interview:
+1.what is table tag 
+2.what is th,tr,td 
+3.what is thead,tbody,tfoot 
+4.any three attributes in table tag 
+5.what is rowspan and colspan 
+6.what is cellpadding and cellspacing 
+===============================================
+
+
