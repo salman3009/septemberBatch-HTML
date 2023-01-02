@@ -1,0 +1,76 @@
+Select tag:
+//we can use in two ways.
+1.from hundreds of list we can select 
+only one similar to radio button.
+example:
+<html>
+    <head>
+        <title>Basic Form</title>
+    </head>
+    <body>
+        <form>
+            <select name="city">
+                <option value="kochi">Kochi</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="noida">Noida</option>
+                <option value="delhi">Delhi</option>
+            </select>
+            <br/>
+            <br/>
+            <input type="submit"  value="Register"/>
+        </form>
+    </body>
+</html>
+
+2.from hundres of lists we can select more 
+than one item simlar to checkbox
+<html>
+    <head>
+        <title>Basic Form</title>
+    </head>
+    <body>
+        <form>
+            <select name="city" multiple>
+                <option value="kochi">Kochi</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="noida">Noida</option>
+                <option value="delhi">Delhi</option>
+            </select>
+            <br/>
+            <br/>
+            <input type="submit"  value="Register"/>
+        </form>
+    </body>
+</html>
+
+3.type="url" - to accept only url 
+4.type="color" - to display the color picker 
+5.type="range" - to display the range 
+
+Label:
+//Label is used to connect radio and checkbox static content to be clickable 
+//We have two ways of using label 
+  (i)First we can wrapped the label tag inside the content 
+  (ii)Second using for and id attribute for making clickable content.
+
+buttonImage 
+tabIndex - Mostly to support blind people
+fieldset - form layout design 
+form tag - action attribute 
+==============================================
+attribute:
+1.type 
+2.id 
+3.name 
+4.value 
+5.size 
+6.width 
+7.height 
+8.src 
+9.placeholder - it is hint 
+10.readonly 
+11.autofocus
+12.disabled
+===========================================
