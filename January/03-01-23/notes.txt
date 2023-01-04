@@ -1,0 +1,9 @@
+Sematic element or tags:
+1.there is some set of tags which is use to identify the content of the page.
+example:
+nav - navigation
+aside
+main 
+sidebar
+section
+

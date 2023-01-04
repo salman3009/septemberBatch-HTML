@@ -1,0 +1,19 @@
+Attributes in Form:
+1.name - it is mandatory to add this attribute because javascript need to access the final value.
+2.id - it is optional attribute mainly used for css purpose and sometimes will use for javascript purpose as well.
+3.value -
+  //It is mandatory in radio button,checkbox,select tag.
+  //for other tag it is optional to have default value.
+4.placeholder - it is used to display hint 
+5.readonly - it is used to add in input type=text,number,password,email
+6.disabled - the entire tag will not operate until some condition is met.
+7.autofocus - you can use this element to focus one of the element.
+8.checked - you can use for default selection in  radio,checkbox.
+9.selected - you can use for default selection in select tag.
+Validation attribute:
+10.required - mandatory atlest you need to type something from keyboard.
+11.maxlength - it will not allow you to type further events. text,email,password,textarea
+12.minlength - it will say minimum number of character we need to type.
+13.email
+14.pattern - mainly to restrict users from typing some set of characters.
+15.
