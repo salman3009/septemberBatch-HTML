@@ -16,4 +16,19 @@ Validation attribute:
 12.minlength - it will say minimum number of character we need to type.
 13.email
 14.pattern - mainly to restrict users from typing some set of characters.
-15.
+15.autocomplete - it is use to avoid default value inside the input tag,
+
+Form tag:
+1.optgroup - used with select tag to make it group.
+2.list and datalist
+
+other tag:
+1.description list dl,dt dd
+dl - defination list 
+dt - defination terms 
+dd - defination details
+2.mark tag - in yellow color for indication purpose
+3.div and span tag
+div - it is block element and it is plain element 
+span - it is inline elment and it is plain element
+
