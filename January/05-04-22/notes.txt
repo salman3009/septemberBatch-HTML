@@ -1,0 +1,3 @@
+Meta tags:
+//It is information to the browser and search engine what type of information we have inside it.
+//charset="utf-8" we are using english language.

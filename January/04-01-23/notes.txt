@@ -20,7 +20,7 @@ Validation attribute:
 
 Form tag:
 1.optgroup - used with select tag to make it group.
-2.list and datalist
+2.list and datalist - it is used with input tag as reference for user.
 
 other tag:
 1.description list dl,dt dd
