@@ -33,4 +33,22 @@ iframe:
          2.height 
          3.src 
          4.title 
-
+=============================================
+Media tag:
+1.audio tag 
+2.video tag 
+//attributes:
+     1.controls 
+     2.src 
+//tag 
+     audio 
+     source 
+     video 
+     source
+============================================
+Semantic elements:
+1.figcaption 
+2.figure 
+3.header 
+4.footer 
+==============================================
