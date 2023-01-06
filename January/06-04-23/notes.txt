@@ -1,0 +1,36 @@
+http method consists of two section:
+1.header - url
+2.body - payload data
+
+Form Method:
+1.GET - http - header section
+2.POST - http - body section
+GET Method:
+//Default is get method
+//Data will travel in the url.
+?firstName=akash&email=akash%40gmail.com
+?-->query params
+firstName -> key 
+email - key
+akash - value 
+akash%40gmail.com - value
+2.POST method 
+firstName: 
+akash
+email: 
+akash@gmail.com
+gender: 
+male
+//post method will take more data compare to get method 
+//get method we have some limitations.
+//post method is more secure compare to get method because data will travel inside the body. 
+//get method special symbol will be converted into some encoding form. that is not possible with post method.
+==================================================
+iframe:
+//It will help to integrate multiple html files into single html.
+//It consists followings attributes:
+         1.width 
+         2.height 
+         3.src 
+         4.title 
+
