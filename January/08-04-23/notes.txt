@@ -1,0 +1,20 @@
+Semantic elements:
+1.main
+2.article
+3.summary
+4.nav 
+5.Header 
+6.footer 
+7.aside 
+8.figcaption and figure 
+9.details
+Validation:
+1.required
+2.minlength
+3.maxlength 
+4.min 
+5.max 
+6.email
+7.pattern
+//min and max will work with type="number" and type="range"
+
