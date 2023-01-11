@@ -1,0 +1,75 @@
+CSS - cascading stylesheet 
+//It is use for presentation purpose.
+//without css also we can able to develop website.
+//Inside any browser three languages are supported by default 
+     1.html 
+     2.css 
+     3.javascript 
+//you can able to run css separately inside the browser.
+//always we need to create html page before css.  
+
+css properties:
+color:red 
+//if you have more then one property semi-colon in between is mandatory for inline style.
+color:red;text-align:center;
+
+
+Writing the css we have three approach:
+   1.inline  - within the tag itself you are going to write the style.
+   example:
+   style="color:red"
+   style -> attribute 
+   color --> property of css or key of css 
+   : --> colon operator
+   red --> value of css 
+   entire property enclosed with double quotes or single quotes
+   2.internal 
+      //internal style can be written anywhere inside the html page.
+      //mostly it is written in the head tag and sometimes in body tag.
+      example:
+        <style>
+          h2{
+            color:red;
+            text-align: center;
+          } 
+          p{
+            color:blue;
+            text-align: center;
+          }      
+       </style>
+   3.external 
+   // we are going to write html and css separately in two files:
+   //external.html 
+    <head>
+         <link rel="stylesheet" href="./external.css">
+         //rel - relationship
+    </head>
+   //external.css
+h1{
+    color:green;
+    text-align: center;
+}
+Element selector:
+/.to select html tags to apply css.
+head tag:
+//title 
+//meta tag 
+//link tag
+==========================
+comparison:
+1.inline
+2.internal
+3.external 
+first priority:
+1.inline -  always priority to inline style
+Depends upon the browser last load will be given priority for internal and external
+2.internal 
+3.external
+attribute: !important 
+//it will give utmost priority for that style.
+//please dont use this propery unnecessary. if something is breaking then only we have to use 
+this property.
+====================================
+color property we can use hexa decimal color that is best approach:
+#79216cbf
+===============
