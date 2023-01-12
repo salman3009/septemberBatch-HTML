@@ -1,0 +1,60 @@
+Basic selector:
+1.element selector 
+  //we are targeting particular element name.
+  //it will apply css for all the tag which is mentioned in entire file 
+  example:
+   <style>
+     h1{
+        color:red;
+     }
+   </style>
+2.id selector 
+    //id should be unique attribute in entire web page.
+    //id is used to target the css for particular element 
+    example:
+      <style>
+    #first-para{
+        color:red;
+    }    
+   </style>
+     <p id="first-para">html head body tag</p>
+3.class selector 
+    //It is combination of group of tags to apply some common css.
+      <style>
+    .font-styling{
+        font-size:10px;
+        color:blue;
+    }
+   </style>
+   <body>
+    <h1 class="font-styling">Welcome to html</h1>
+    <p class="font-styling">font-size,text-algin properties</p>
+    <h1 class="font-styling">Welcome to javascript</h1>
+</body>
+4.grouping selector 
+    //combine one or more others selector together 
+    //element + id + class 
+    <style>
+    .font-styling,h4,#heading{
+        font-size:10px;
+        color:blue;
+    } 
+   </style>
+
+5.universal selector 
+    //it is use to apply for entire web page whatever is written inside this property 
+    example:
+       <style>
+    *{
+        color:blue;
+    }
+   </style>
+=========================================================
+css units
+1em = 16px
+//if we use both id and class --> id attribute is given more priority.
+priority
+1.id 
+2.class 
+3.element
+=======================================
