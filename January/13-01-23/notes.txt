@@ -1,0 +1,17 @@
+Box Modal:
+1.width and height 
+2.padding 
+   left,top,right,bottom
+3.border 
+   left,top,right,bottom
+   border-radius   
+example:
+/* border:10px solid black; */
+/* border:10px dotted green; */
+border: 10px double black;
+4.margin
+   //top,left,right,bottom
+
+=====================================
+to comment css 
+/*    */
