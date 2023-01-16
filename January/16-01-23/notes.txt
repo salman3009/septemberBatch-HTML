@@ -1,0 +1,72 @@
+Box Modal:
+1.width*height
+2.padding
+3.border 
+4.margin
+//to align the box in center position please use margin:auto.
+
+//whenever we are using global and explicit properties of margin,padding,border 
+please first write the global after that explicit properties
+example:
+margin:auto;
+margin-top:20px;
+
+padding:10px;
+padding-left:5px;
+=======================================
+basic selector:
+1.element selector 
+2.id 
+3.class 
+4.universal
+5.grouping 
+
+combinator selector: - relationship between two tags
+1.descendant (space) - parent/child/grandchild tags
+2.child (>)  - parent/child tags
+3.adjacent siblings (+) -->brother/sister/first tags
+4.general siblings (~) -->brother/sister/all tags
+
+pseudo-elements
+1.before (::before) - it will add content from css to html before the text of that particular tag.
+2.after (::after) - it will add content at the last position opposite of before pseudo elements.
+3.selection (::selection)-is is use to hightlight the content of the web page
+
+
+pseudo-class 
+
+
+attributes selectors
+
+============================
+background-image
+example:
+background-image:url('');
+
+background-size
+example:
+background-size:cover --> it will cover entire width and height 
+background-size:30px 40px --> 30px refers to width of the image and 40px refers to height 
+of the image.
+background-repeat
+example:
+background-repeat:no-repeat --> it will not repeat the image.
+
+background-position
+//it will position the image within container in followings below section
+left top
+
+left center
+
+left bottom
+
+right top
+
+right center
+
+right bottom
+
+center top
+
+center center
+==================================
