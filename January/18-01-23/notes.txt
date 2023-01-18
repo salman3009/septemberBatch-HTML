@@ -1,0 +1,35 @@
+rgba
+r - red 
+g - green 
+b - blue 
+a - opacity 
+range(0-255)
+opacity - 0 or 0.1,,,0.9,1
+color:rgba(255,0,0,1);
+//always try to use hexadecimal color
+====================
+display property:
+1.block 
+example:
+display:block
+//it will block entire line and next tag will start in new line
+//width and height will work here
+//mostly we can change the inline to block if requirment is there
+
+2.inline 
+example:
+display:inline
+//it will continue in the same line
+//width and height will not work here
+//block to inline mostly we will not have this requirement.
+
+3.inline-block 
+//it will continue in the same line but will accept the width and height.
+//inline to inline-block and block to inline-block.
+=====================================================
+4.table 
+
+6.flex
+
+7.grid 
+
