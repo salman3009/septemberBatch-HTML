@@ -1,0 +1,112 @@
+basic selector:
+1.element selector (elementname)
+2.id - (#)
+3.class - (.)
+4.universal - (*)
+5.grouping - (,)
+combinator selector: - relationship between two tags
+1.descendant (space) - parent/child/grandchild tags
+2.child (>)  - parent/child tags
+3.adjacent siblings (+) -->brother/sister/first tags
+4.general siblings (~) -->brother/sister/all tags
+pseudo-elements
+1.before (::before) - it will add content from css to html before the text of that particular tag.
+2.after (::after) - it will add content at the last position opposite of before pseudo elements.
+3.selection (::selection)-is is use to hightlight the content of the web page
+pseudo-class
+pseudo-class-basic - (mainly in input tag)
+1.focus  - (input:focus)
+2.required - (input:required)
+pseudo-class-anchor (mainly in anchor tag)
+1.link - (a:link) ->currenlty newly link elements
+1.active - (a:active) ->once you press the mouse
+2.visited - (a:visited) ->already you visted this page
+3.hover - (a:hover) ->mouse over
+pseudo-class-general -(mostly used with li tags)
+1.first-child - (li:first-child) first element in the list will have the changing of color
+2.nth-child (li:nth-child(2n)) --> remember this one
+//2n - for even number
+//2n+1 - for odd number
+3.nth-of-type  - both nth-child and nth-of-type will work in same way.
+//nth-child - will conside all siblings as their own element and it will give you the wrong result.
+//nth-of-type- always it will consider the exact siblins element.
+4.nth-last-child -(li:nth-last-child(2n)) -> opposite of nth-child
+==============================================
+attributes selectors
+1.general attribute selector
+//it will apply for any attribute inside the html tag
+//syntax
+//we need to use html tag after that square bracket.
+//inside the square bracket we need to give attribute name.
+//example:
+  input[type]{
+    border:10px solid green;
+  }
+2.attribute with matching value selector
+//specific value matches will apply the color
+example:
+ input[type=“text”]{
+    border:10px solid green;
+  }
+3.attribute with starting value (^)
+//anything that start with that character then it will apply the color
+<style>
+            li[id^=“ac”]{
+                color:red;
+            }
+</style>
+4.attribute with ending value ($)
+//anything that ends with this particular keyword it is going to apply the color
+<style>
+          li[id$=“ac”]{
+                color:red;
+            }
+</style>
+5.attribute anywhere matching value (*)
+//anywhere if it matches the particular symbol it will apply the color
+<style>
+          li[id*=“ac”]{
+                color:red;
+            }
+</style>
+6.attribute selector with pipe symbol - (|)
+//it is going to match starting keyword matching with our given word alone with hyphen
+//hyphen should be after the word
+       <style>
+            li[id|=“ac”]{
+                color:red;
+            }
+        </style>
+ <li  id=“ac-lag”>Eraser</li>
+7.attribute selector with tilde symbol (~)
+//anywhere in the text it should be separate keyword
+ <style>
+            li[id~=“ac”]{
+                color:red;
+            }
+        </style>
+  <li id=“two ac”>sharpner</li>
+==============================================
+Important selectors;
+Generic selectors
+1.element selector (elementname)
+2.id - (#)
+3.class - (.)
+4.universal - (*)
+5.grouping - (,)
+combinator selectors:
+6.child (>)  - parent/child tags
+psuedo-elements
+7.selection (::selection)
+psuedo-class
+8.focus  - (input:focus)
+9.required - (input:required)
+pseudo-class-anchor (mainly in anchor tag)
+10.link - (a:link) ->currenlty newly link elements
+11.active - (a:active) ->once you press the mouse
+12.visited - (a:visited) ->already you visted this page
+13.hover - (a:hover) ->mouse over
+pseudo-class-general
+14.nth-child (li:nth-child(2n))
+attribute selector:
+15.attribute with matching value selector
