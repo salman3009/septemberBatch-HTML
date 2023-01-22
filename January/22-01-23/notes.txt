@@ -1,0 +1,12 @@
+Position property:
+1.sticky - it will stick in particular Position. scrolling will happen but this position will be sticky in one particular place.
+2.fixed - it will fix in one particular position - no scrolling.
+3.static - default browser is following this method.
+4.relative static and relative both are same. but in relative you have property of left,right,top,bottom
+5.absolute - it will not follow the normal flow of the document. always it will position depends upon the parent tag body.
+
+Real time:
+1.sticky - this can be used in all the standard websites to keep navigation at the top position.
+2fixed - avoid fixing the footer position if you need vertical scrolling
+3.relative + absolute
+fixed = no scrolling, sticky = some scrolling
