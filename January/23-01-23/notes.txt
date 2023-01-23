@@ -1,0 +1,41 @@
+Text-shadow:
+//To apply some shadow for text.
+example:
+ h1
+ {
+                text-shadow: 1px 2px 3px green;
+ }
+
+ 1px - to move from left to right 
+ 2px - to move from top to bottom 
+ 3px - to make it blur
+ green - color 
+ =================================
+ box-shadow:
+ //to apply for box
+ example:
+ .box
+ {
+                 box-shadow: 1px 2px 3px green;
+ }
+
+ 1px - to move from left to right 
+ 2px - to move from top to bottom 
+ 3px - to make it blur
+ green - color 
+ ==============================
+ animation:
+ 1.animation-name 
+ //any animation name you can use it
+ example:
+   animation-name: box-change-color;
+
+ 2.animation-duration
+ //any animation duration you can give in seconds
+       animation-duration: 10s;
+ 3.@keyframes
+   @keyframes box-change-color {
+                   from{background-color: green;}
+                   to{background-color: yellow;}
+            }
+==============================            
