@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            .header{
+                grid-area: header;
+            }
+            .sidebar{
+                grid-area: sidebar;
+            }
+            .main{
+                grid-area: main;
+            }
+            .footer{
+                grid-area: footer;
+            }
+
+            .container{
+                display: grid;
+                grid-template-areas: 'header header header header'
+                'sidebar main main main'
+                'footer footer footer footer';
+                gap:50px;
+            }
+
+            .header,.footer{
+                background-color: red;
+                height: 100px;
+            }
+            .sidebar{
+                background-color: green;
+                height: 600px;
+            }
+            .main{
+                background-color: yellow;
+                height: 600px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header"></div>
+            <div class="sidebar"></div>
+            <div class="main"></div>
+            <div class="footer"></div>
+        </div>
+    </body>
+</html>

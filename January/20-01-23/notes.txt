@@ -1,0 +1,33 @@
+Display:grid
+//it is 2d (dimension) property.
+Steps to be followed.
+1.we need to segragate into different blocks.
+example;
+header,footer,sidebar,banner,main
+2.we need to give grid-area for all the blocks 
+example:
+.header{grid-area:header;}
+3.we need to give following things inside the parent container
+example:
+display:grid 
+gap:50px; it will give margin between the sections 
+  grid-template-areas: 'header'
+            'main'
+            'footer';
+//it will create the sections into multiple rows and columns
+//each row should have equal number of columns
+//if we have different columns names in one row in another rows you can use the same column to extend the width of that paritcular area.
+=====================================================
+Project creation steps:
+1.first create project folders 
+2.Download images and put inside the project folders 
+3.design grid for entire web page and give some dummy background colors 
+4.start adding images in particular position using background-image property
+5.start adding content paragraph and heading in particular places 
+6.algin the text content using padding ,margin and border 
+7.add font-family,font-size,font-weight 
+8.find proper background-color and others color property 
+9.add box-shadow and border-radius whereever is needed.
+10.finally check the entire flow one time in chrome browser 
+11.please push the code in gihub.
+=========================================================     

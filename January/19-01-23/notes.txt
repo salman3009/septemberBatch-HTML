@@ -1,0 +1,42 @@
+Table:
+//Instead of using table tag to create table we can use css properties to create our own table:
+properties:
+To create table 
+display:table 
+To create row inside the table 
+display:table-row 
+To create column inside the table 
+display:table-cell
+
+Flex:
+//By using the flex property we can create responsive design in row wise manner or column manner.
+display:flex 
+flex-wrap: wrap; --> it will not change the width of the box everything will come in next line if not space is available.
+justify-content: center; --> it will bring all the box in the center of the page.
+
+text-effects:
+1.white-space -> it will try to continue in the same line
+example:
+white-space:nowrap
+
+2.overflow 
+//if contain is going outside of the box. it will try to hide the contain by following property:
+overflow:hidden
+
+//if you need to scroll in vertical direction
+overflow-y:scroll
+
+3.text-overflow 
+//if you need three dots at the end position for hidding content 
+text-overflow:ellipsis
+
+4.word-break 
+//to break the word to accommodate in the unused space we can use this property:
+word-break:break-all;
+//default properties will not break the word in the middle.
+word-break:break-word;
+
+5.writing-mode 
+writing the content in vertical direction
+writing-mode: vertical-lr;
+====================================

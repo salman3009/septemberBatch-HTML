@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            grid-area: header;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+        }
+
+        .main {
+            grid-area: main;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 'header header header header'
+                'sidebar main main main'
+                'footer footer footer footer';
+            gap: 50px;
+        }
+
+        .header,
+        .footer {
+            background-color: red;
+            min-height: 100px;
+        }
+
+        .sidebar {
+            width: 300px;
+            background-color: green;
+            height: 600px;
+        }
+
+        .main {
+            
+            height: 600px;
+        }
+
+        .container-flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .box {
+            width: 300px;
+            height: 200px;
+            margin: 5px;
+            background-color: grey;
+        }
+
+        ol {
+            list-style-type: none;
+        }
+
+        li {
+
+            padding: 15px;
+        }
+        li:hover{
+            border:2px solid green;
+        }
+
+        .background-library{
+            background-image: url('./library.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="sidebar">
+            <div class="container-flex">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container-flex">
+                <div class="box background-library"></div>
+                <div class="box background-library"></div>
+                <div class="box background-library"></div>
+                <div class="box background-library"></div>
+                <div class="box background-library"></div>
+                <div class="box background-library"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container-flex">
+                <div class="box">
+                    <ol>
+                        <li>FAQ</li>
+                        <li>Investor</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <ol>
+                        <li>FAQ</li>
+                        <li>Investor</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <ol>
+                        <li>FAQ</li>
+                        <li>Investor</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <ol>
+                        <li>FAQ</li>
+                        <li>Investor</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
