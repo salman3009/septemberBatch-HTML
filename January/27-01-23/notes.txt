@@ -1,0 +1,28 @@
+Mobile responsive:
+1.we have breakpoints to target the device screen.
+2.we need to write media query for following devices:
+   (i)phone and mobile - max-width:480px
+   (ii)low resolution tablet and ipad - (min-width:481px) and (max-width:767px)
+   (iii)portrait mode tablet and ipad - (min-width:768px) and (max-width:1024px)
+   (iv)laptop - (min-width:1025px) and (max-width:1280px)
+   (v)extra large screen - (min-width:1281px)
+example:
+@media (max-width:480px){
+
+}  
+3.Browser will take care automatically.
+4.just we need to write breakpoints
+=================================
+CSS Units:
+1.px 
+2.%
+3.rem - it will inherit from parent element.
+2px - 2rem=4px
+4.vw - 1vw = 1% of viewport width
+5.vh - 1vh = 1% of viewport height.
+6.em  - 16px = 1em
+======================================
+
+
+
+
