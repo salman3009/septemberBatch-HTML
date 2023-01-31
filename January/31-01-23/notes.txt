@@ -1,0 +1,33 @@
+Mostyl used components:
+1.alerts - to shows warning/errors in the page
+2.breadcrumb - to show the flow of the page.
+3.buttons - 
+4.collapse - hide/show
+5.dropdowns - buttons with link
+6.Forms
+7.modal - popup or modal it will open once u click or hover 
+8.Navs/Navbar - all websites will have the navbar. always on the top
+9.paginations
+10.progress 
+11.tooltips 
+12.grid
+========================
+1.
+alerts:
+1.success
+2.warning
+3.danger 
+==================
+2.buttons
+3.breadcrumb
+4.collapse
+5.dropdowns
+6.paginations
+7.progressbar 
+8.tooltips
+9.navbar 
+10.modal/popup
+11.container
+======================
+please write everything inside the container-fluid class except navbar tags.
+===============================
