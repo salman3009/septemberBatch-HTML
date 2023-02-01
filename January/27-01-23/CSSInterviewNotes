@@ -1,0 +1,53 @@
+1.Dont use inline style it will create problem for bigger project
+2.always prefer external css 
+============================================
+3.Important selectors;
+Generic selectors
+1.element selector (elementname)
+2.id - (#)
+3.class - (.)
+4.universal - (*)
+5.grouping - (,)
+
+combinator selectors:
+6.child (>)  - parent/child tags
+psuedo-elements
+7.selection (::selection)
+psuedo-class
+8.focus  - (input:focus)
+9.required - (input:required)
+
+pseudo-class-anchor (mainly in anchor tag)
+10.link - (a:link) ->currenlty newly link elements
+11.active - (a:active) ->once you press the mouse
+12.visited - (a:visited) ->already you visted this page
+13.hover - (a:hover) ->mouse over
+
+pseudo-class-general
+14.nth-child (li:nth-child(2n)) 
+
+attribute selector:
+15.attribute with matching value selector 
+=============================================
+4.box modal 
+     (i)width*height
+     (ii)padding 
+     (iii)border 
+     (iv)margin
+=============================
+5.display: 
+      (i)inline 
+      (ii)block 
+      (iii)inline-block
+      (iv)flex 
+      (v)grid
+ ============================     
+ 6.POSITION:
+       (i)relative 
+       (ii)absolute 
+==============================
+7.box-sizing 
+8.css units 
+9.media query 
+10.animation - less priority
+==================================
