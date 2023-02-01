@@ -1,0 +1,10 @@
+Grid:
+class:
+.col-	.col-sm-	.col-md-	.col-lg-	.col-xl-
+Total number of columns:12
+=====================================================
+Frontend web development:
+html 
+css 
+javascript - much needed knowledge
+
