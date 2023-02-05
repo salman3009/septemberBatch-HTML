@@ -1,0 +1,28 @@
+primitive Datatypes:
+1.string 
+2.number
+//everything is number in javascript.
+//there is no difference between float and integer number.
+3.boolean
+true/false
+4.undefined.
+empty
+
+example:
+declaration with initialization:
+var fullName = "akash";
+example:
+declaration
+var fullName;
+==================================
+Dynamic Datatypes:
+//Once you assign one variable with one type you can change in later in javascript.
+//To avoid this we need to use another language this is called typescript.
+============================
+
+
+
+
+
+
+

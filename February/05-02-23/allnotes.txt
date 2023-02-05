@@ -1,0 +1,63 @@
+//To use javascript outside the browser we need 
+nodejs compiler.
+Nodejs - runtime environment for javascript.
+===========================
+objects: - noun
+example:
+table 
+fan 
+pen
+can 
+car 
+objects:
+properties 
+method 
+object - person 
+properties 
+age 
+name 
+height 
+weight 
+methods:
+eat()
+sleep()
+work()
+=========================
+primitive datatypes:
+example:
+var fullName = "akash";
+var age = 45;
+
+var fullNameTwo = "suresh";
+var ageTwo = 22;
+
+var fullNameThree = "park";
+var fullNameThree = 55;
+
+1.derived types:
+object 
+array 
+Object:
+example:
+var personAkash = {
+    fullName:"akash",
+    age: 34
+}
+====================
+curly brace - {}
+assignment operator - =
+colon operator - :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
