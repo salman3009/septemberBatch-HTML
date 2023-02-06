@@ -1,0 +1,44 @@
+JSON:
+//It is one type of data format to transfer 
+data from frontend to backend.
+Primitive types:
+1.number 
+2.string
+3.boolean
+4.undefined
+Derived Datatypes:
+1.Object 
+2.array
+
+Basic array:
+//It is used to store the data continously.
+//We can store different datatypes together continously.
+//array index always will start from zero.
+syntax:
+[] - array bracket
+
+Four operation:
+CRUD - create,read,update,delete
+To add element at the end position we need to use push() method 
+To remove the element at the end position we need to use pop() method
+push() and pop() will remove one element at a time if you give only one value.
+
+how to find the length of the array.
+array.length
+=================================
+Object:
+CRUD - Create|Read|Update|Delete 
+//position is not matter inside the object only keys 
+//no duplicate keys inside the object.
+=========================
+Array of objects 
+objects of array.
+=======================
+functions:
+//It is used to help to call same function multiple times to get the job done.
+//it helps to avoid duplication in code
+=====================================
+
+
+
+
