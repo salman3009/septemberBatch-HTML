@@ -1,0 +1,35 @@
+Functions:
+//reusable code-block
+//it helps to avoid duplication in code
+//break down a program in parts using functions
+=============================================
+passing parameter or argument
+//you can pass one or more parameter inside the function.
+function displayName(type){
+    console.log("my name is",type);
+}
+displayName("akash");
+displayName("suresh");
+displayName("ramesh");
+=================================
+using return keyword inside the function:
+//It is not mandatory inside the javascript for function to return mandatory.
+//return keyword is optional in javascript
+//if you need something to be return then use return keyword and store in some variable.
+==============================
+constant:
+//once you declare the variable there only we need to pass value.you cannot redclare the value.
+//old javascript we don't this features.it came on latest es6 features of javascript.
+//for constant please use capital letter variable.
+//initializer is mandatory while declaring the variable.
+====================
+parseInt
+//it will convert into integer number.
+//NaN --> Not a number
+======================
+parseFloat
+//it will convert into decimal value.
+========================
+arithmetic operator:
+1.+,-,/,%,++,--
+
