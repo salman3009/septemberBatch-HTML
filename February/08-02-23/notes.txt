@@ -1,0 +1,57 @@
+Operator precedence:
+we have Associativity that will work from left-right or right-left
+
+example:
+8*5 --> from 8 it will start then multiplication after 5 will be multiplied - left-right associativity
+example:
+var a = 7; 7 will be assign to a- right-left associativity.
+() --> level 1
+*/ --->level 2 
++ - ---> level 3
+=================================
+comparison operator:
+//final return type of the below operator is boolean
+>
+<
+>=
+<= 
+!= 
+=================================
+Equality operator
+//final return type of the below operator is boolean
+1.Double equal to operator
+==
+//it will compare only value, not a datatype.
+2.
+===
+//it will compare value and datatype if both are true it will return true otherwise it will be false.
+==================================
+Logical operator:
+1.&& --> and
+//To check more than two conditions:
+//If any one condition is false final result is false
+T & T --> T
+T & F --> F
+F & T --> F
+F & F -->F
+===================================
+2.|| --> OR
+//If any one condition is true final result is true
+T & T --> T
+T & F --> T
+F & T --> T
+F & F -->F
+=================================
+3.
+False condition in javascript:
+//0-false
+//''-false 
+//undefined - false
+//false - false 
+//null - false
+//NaN - false
+====================================
+3.! - not
+//return type is always boolean value
+//always it will give you the opposite result.
+===============================
