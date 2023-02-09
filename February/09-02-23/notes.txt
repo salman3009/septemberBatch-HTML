@@ -1,0 +1,86 @@
+Logical operator with non boolean value:
+OR operator:
+//It will start checking from left side. If anything is true it 
+will return that result otherwise it will take the last value either it can be true or 
+false.
+<script>
+    var a = 'hello' || '';             // a = 'hello'
+var b = '' || [];                  // b = []
+var c = '' || undefined;           // c = undefined
+var d = 1 || 5;                    // d = 1
+var e = 0 || {};                   // e = {}
+var f = 0 || '' || 5;              // f = 5
+var g = '' || 'yay' || 'boo';      // g = 'yay'
+
+And operator logic:
+//It will check for false condition from left side it will return immediately.
+//If everything is true condition it will return the last value.
+var a = 'hello' && '';                  // a = ''
+var b = '' && [];                       // b = ''
+var c = undefined && 0;                 // c = undefined
+var d = 1 && 5;                         // d = 5
+var e = 0 && {};                        // e = 0
+var f = 'hi' && [] && 'done';           // f = 'done'
+var g = 'bye' && undefined && 'adios';  // g = undefined
+</script>
+=======================
+Typecasting implicit:
+//converting from one datatype to another datatype:
+
+var result = true + "hello";
+console.log(typeof result);
+//It will convert into string when we use +
+
+var result = 23 * "hello";
+console.log(result);
+//datatype will be number we cannot covert * into string.
+
+
+const string = ""
+const number = 40
+const boolean = true
+console.log(!boolean)
+//always it will return boolean value.
+
+var result = 40 + true;
+console.log(result);
+//number + boolean --> number
+
+result = false + ""
+console.log(result);
+//boolean + string --->string
+
+result = 40 + ""
+console.log(result);
+//number + string --->string
+========================================
+explicit operator:
+
+ var result = 34;
+ result = String(result);
+ console.log(typeof result);
+ 
+ var resultOne = "33";
+ resultOne = Number(resultOne);
+ console.log(typeof resultOne)
+ 
+  var resultTwo = 0;
+  //any number is considered as true
+  //o is considered as false
+ resultTwo = Boolean(resultTwo);
+ console.log(typeof resultTwo);
+ console.log(resultTwo);
+===========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
