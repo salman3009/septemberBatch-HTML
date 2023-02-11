@@ -1,0 +1,44 @@
+<script>
+    var netflixSubscription = true;
+    var result = netflixSubscription === true ?
+    "yes we have subscription":"please reacharge now";
+    alert(result);
+</script>
+
+<script>
+    var result = 0 ? true : false;
+    console.log(result);
+    result = "" ? true : false;
+    console.log(result);
+    result = false ? true : false;
+    console.log(result);
+    result = NaN ? true : false;
+    console.log(result);
+    result = null ? true : false;
+    console.log(result);
+    result = undefined ? true : false;
+    console.log(result);
+    
+</script>
+
+
+<script>
+    function positive(){
+        console.log("The amount is paid successfully");
+        return true;
+    }
+    function negative(){
+        console.log("The amount is not paid");
+        return false;
+    }
+    var amount = 34;
+    var result = amount>0?positive():negative();
+    console.log("final value is",result);
+</script>
+
+<script>
+    var age = 33;
+    var citizenship = "india";
+    var result = age >18 && citizenship === "india" ? true: false;
+    console.log("eligible for scholarship",result);
+</script>
