@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            background-color: red;
+        }
+
+        .box-one {
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            background-color: green;
+        }
+
+        /* phone and mobile */
+        @media (max-width:480px) {
+            .box {
+                background-color: green;
+            }
+
+            .box-one {
+                width: 200px;
+                height: 100px;
+
+            }
+        }
+
+        /*low resolution tablet and ipad*/
+        @media (min-width:481px) and (max-width:767px) {
+            .box {
+                background-color: gold;
+            }
+
+            .box-one {
+                width: 300px;
+                height: 200px;
+
+            }
+        }
+
+        /*portrait mode tablet and ipad*/
+        @media (min-width:768px) and (max-width:1024px) {
+            .box {
+                background-color: grey;
+            }
+
+            .box-one {
+                width: 400px;
+                height: 300px;
+
+            }
+        }
+
+        /*laptop*/
+        @media (min-width:1025px) and (max-width:1280px) {
+            .box {
+                background-color: indigo;
+            }
+
+            .box-one {
+                width: 500px;
+                height: 400px;
+
+            }
+        }
+
+        /*large screen*/
+        @media(min-width:1281px) {
+            .box {
+                background-color: orange;
+            }
+
+            .box-one {
+                width: 600px;
+                height: 500px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="box-one"></div>
+
+</body>
+
+</html>
