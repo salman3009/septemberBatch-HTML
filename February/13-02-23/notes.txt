@@ -1,0 +1,31 @@
+Decision control statement:
+1.ifelse
+2.switch
+//inside the switch you can pass input values.
+//write multiple case anything it can be string,number,boolean.
+//break keyword to come out of the statement.
+========================================
+Loops - iteration:
+for
+while 
+do while 
+for of 
+for in
+beak continue 
+===========================
+for/while/do-while
+Loops have three condition:
+1.initial data 
+2.condition data 
+3.increment/decrement.
+=========================
+for/while will run in sameway only difference is syntax
+=============================
+do-while 
+one time loop will run even for negative case.
+var j = 11;
+do{
+   console.log(j);
+   j++; 
+}while(j<10);
+=============================
