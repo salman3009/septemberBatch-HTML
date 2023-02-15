@@ -29,3 +29,6 @@ do{
    j++; 
 }while(j<10);
 =============================
+for of --> array
+for in --> array and object
+==================
