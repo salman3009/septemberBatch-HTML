@@ -1,0 +1,77 @@
+break and continue:
+//You can use only inside the loop
+//for,while,dowhile,for of,for in ,foreach
+//break you can use it inside the switch statement.
+===========================
+bitwise operator:
+//bit 1 and 0
+//it will work on 32bit.
+& - and 
+| - or 
+~ - not 
+<<  - left shift
+>> - right shift 
+example:
+5 --> 0101
+1 --> 0001
+=================================
+& - and
+0101
+0001
+---->
+0001
+-----
+===============================
+| - or
+0101
+0001
+---->
+0101
+-----
+
+=======================
+not we need to change everything from 1 to zero and zero to 1
+~
+0101
+---->
+1010
+=======================
+8 4 2 1==for 16
+1 0 1 0 = 10
+==============================~
+//shifting one value towards left position and after position add zero at the right side
+0101 <<1
+----
+1010
+==========================
+//shifting one value towards right position and after position add zero at the left side
+0101 >>1
+----
+0010
+==================================
+Array methods:
+tostring 
+//it will convert array to string 
+//final result will be comma separated value.
+============================================
+array methods:
+join 
+//it will convert array to string 
+//final result it depends upon our input value.
+==================================
+callback function:
+it will call the function after someamount of time.
+===========================================
+map
+filter
+reduce 
+foreach 
+some 
+every 
+find 
+==============================
+foreach --> it will iterate the value 
+some -->it will return boolean value if anyone condition matches.
+every--all value should pass the condition then only it will return true otherwise false.
+find-seach method to find value. if match is found it will return that particular value otherwise undefined.
+==============================
