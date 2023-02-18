@@ -1,0 +1,23 @@
+<script>
+    //job status should be true and I need total amount 
+    var list=[{
+        expenseName:"bike",
+        amount:12000,
+        job:true
+    },
+    {
+        expenseName:"car",
+        amount:12000,
+        job:false
+    },{
+        expenseName:"ac",
+        amount:12000,
+        job:true
+    }];
+    var result = list.filter((input)=>{
+           return input.job === true;
+    }).reduce((a,b)=>{
+         return a.amount + b.amount
+    });
+    console.log(result);
+</script>

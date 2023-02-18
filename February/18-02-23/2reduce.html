@@ -1,0 +1,10 @@
+<script>
+    var list=[45,66,22,34,52];
+    //reduce function will have two parameters
+    var count = 1;
+    var result = list.reduce((inputOne,inputTwo)=>{
+         console.log(count,inputOne,inputTwo);
+         count++;
+         return inputOne+inputTwo;
+    });
+</script>
