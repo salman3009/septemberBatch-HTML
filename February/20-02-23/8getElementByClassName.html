@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+            .boxRed{
+                color:red;
+            }
+            .boxGreen{
+                color:green;
+            }
+            .boxYellow{
+                color:yellow;
+            }
+        </style>
+       
+    </head>
+    <body>
+       <ul>
+        <li class="heading" id="listOne">Pen</li>
+        <li class="heading" id="listTwo">Pencil</li>
+        <li class="heading" id="listThree">Eraser</li>
+       </ul>
+        <script>
+            var input = document.getElementsByClassName("heading");
+            for(var obj of input){
+                if(obj.innerHTML == "Pen"){
+                    obj.classList.add("boxGreen");
+                }
+                else if(obj.innerHTML == "Pencil"){
+                    obj.classList.add("boxYellow");
+                }
+                else{
+                    obj.classList.add('boxRed');
+                }
+              
+               
+            }
+        </script>
+    </body>
+</html>

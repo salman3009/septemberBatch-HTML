@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+            .box{
+                border:5px solid black;
+                text-align: center;
+                font-size: 14px;
+                width: 500px;
+                height: 200px;
+            }
+        </style>
+       
+    </head>
+    <body>
+       Description: <input type="text" id="descriptionProps"/>
+       Color:<input type="text" id="colorProps"/>
+      <button onClick="onSubmit()">click here</button>
+      <div class="box" id="demo">
+
+      </div>
+      <script>
+        function onSubmit(){
+            var description = document.getElementById("descriptionProps").value;
+            var colorDetails = document.getElementById("colorProps").value;
+            var demo = document.getElementById("demo");
+            demo.innerHTML = description;
+            demo.style.backgroundColor = colorDetails;
+        }
+      </script>
+    </body>
+</html>
