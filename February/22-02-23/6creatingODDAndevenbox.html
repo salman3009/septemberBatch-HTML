@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .box-even {
+            background-color: red;
+            width: 200px;
+            height: 100px;
+            padding-top: 28px;
+            font-size: 40px;
+        }
+
+        .box-odd {
+            background-color: green;
+            width: 200px;
+            height: 100px;
+            padding-top: 28px;
+            font-size: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-wrapper">
+        Enter the number : <input type="number" id="inputOne"/>
+        <button onClick="onSubmit()">Submit</button>
+    </div>
+    <div class="container" id="container-box">
+        
+    </div>
+    <script>
+        function onSubmit(){
+           var input = Number(document.getElementById("inputOne").value);
+           console.log(input,typeof input);
+           var parent = document.getElementById("container-box");
+
+           for(var i=1;i<=input;i++){
+
+            //<div></div>
+            var element = document.createElement('div');
+            
+            //1
+            var textElement = document.createTextNode(i);
+
+            //<div>1</div>
+            element.appendChild(textElement);
+
+            if(i%2==0){
+
+                element.classList.add('box-even')
+            }
+            else{
+                //<div class="box-odd">1</div>
+                element.classList.add('box-odd');
+            }
+           
+            //<div class="container" id="container-box">
+                //<div class="box-odd">1</div>
+               // </div>
+            parent.appendChild(element);
+           }
+        }
+    </script>
+</body>
+
+</html>
