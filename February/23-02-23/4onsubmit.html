@@ -1,0 +1,45 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form onSubmit="onSubmitHandler(event)">
+            FullName:<input type="text" name="fullName"/>
+            <br/> <br/>
+            Age:<input type="number" name="age"/>
+            <div id="errorAge"></div>
+            <br/> <br/>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+        <script> 
+            function onSubmitHandler(event){
+                //it will stop further event of form tag.going to action attribute and finding the next page
+               event.preventDefault();
+               var list = document.forms[0];
+               for(var i=0;i<list.length;i++){
+                console.log(list.elements[i].value);
+                if(list.elements[i].value === '' || list.elements[i].value === undefined || list.elements[i].value === null){
+                    list.elements[i].style.border="10px solid red";
+                }
+                else{
+                    list.elements[i].style.border="1px solid black";   
+                }
+                if(list.elements[i].name === "age"){
+                    var input = Number(list.elements[i].value);
+                    if(input<18 || input >60){
+                        var errorLog = document.getElementById('errorAge');
+                        errorLog.innerHTML = "age should be between 18 to 60";
+                        errorLog.style.color = "red";
+                    }
+                    else{
+                        var errorLog = document.getElementById('errorAge');
+                        errorLog.innerHTML = "";
+                    }
+                }
+
+               }
+            }
+
+        </script>
+    </body>
+</html>

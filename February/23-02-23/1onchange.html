@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        FullName:<input type="text" name="fullName" onChange="onSubmitHandler(event)"/>
+        <div id="box"></div>
+        <script>
+            function onSubmitHandler(event){
+                    console.log(event);
+                    console.log(event.target.value);
+                    console.log(event.target.name);
+             var input = document.getElementById('box');
+             input.innerHTML = event.target.value;
+             input.style.color = event.target.value;
+            }
+        </script>
+    </body>
+</html>
