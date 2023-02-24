@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <style>
+        #demo {
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="demo"></div>
+    <script>
+
+
+        const onMouseHandler = (event) => {
+            event.target.style.backgroundColor = "green";
+            event.target.style.width = "500px";
+            event.target.style.height = "500px";
+        }
+
+        const onMouseOutHandler = (event) => {
+            event.target.style.backgroundColor = "red";
+            event.target.style.width = "300px";
+            event.target.style.height = "300px";
+        }
+
+        const onClickHandler = (event) => {
+            event.target.style.backgroundColor = "yellow";
+            event.target.style.width = "100px";
+            event.target.style.height = "100px";
+            document.getElementById('demo').removeEventListener('mouseout',onMouseOutHandler);
+        }
+
+        document.getElementById("demo").addEventListener('mouseover', onMouseHandler)
+        document.getElementById("demo").addEventListener('mouseout', onMouseOutHandler)
+        document.getElementById("demo").addEventListener('click', onClickHandler)
+
+
+    </script>
+</body>
+
+</html>
