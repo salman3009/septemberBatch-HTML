@@ -1,0 +1,74 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id="input">
+        <button id="add" onclick="onAddHandler()">add</button>
+        <button id="even" onclick="even()">even</button>
+        <button id="odd" onclick="odd()">odd</button>
+        <button id="join" onclick="join()">join</button>
+        <div id="error"></div>
+        <div id="display"></div>
+        <script>
+            let globalArray=[];
+            function onAddHandler(){    
+                 let input = document.getElementById('input').value;
+                 let result = input.split(',');
+                 if(checkingNumberType(result)){
+                      document.getElementById('error').innerHTML = "Wrong Input!!" 
+                 }
+                 else{
+                    document.getElementById('error').innerHTML = ""; 
+                    let tempResult = result.map((input)=>{
+                          return Number(input);
+                    })
+                    globalArray=tempResult;
+                    document.getElementById('display').innerHTML= '['+result+']';
+                 }
+                 
+            }
+
+            function checkingNumberType(input){
+            
+                for(let i=0;i<input.length;i++){
+                    if(isNaN(input[i])){
+                            return true;
+                    }
+                }
+                    return false;
+                
+            }
+
+            function even(){
+                if(globalArray.length>0){
+                    let result=[];
+                    for(let i=0;i<globalArray.length;i++){
+                        if(globalArray[i]%2==0){
+                            result.push(globalArray[i]);
+                        }
+                    }
+                    document.getElementById('display').innerHTML= '['+result+']';
+                }
+            }
+
+            function odd(){
+                if(globalArray.length>0){
+                    let result=[];
+                    for(let i=0;i<globalArray.length;i++){
+                        if(globalArray[i]%2!=0){
+                            result.push(globalArray[i]);
+                        }
+                    }
+                    document.getElementById('display').innerHTML= '['+result+']';
+                }
+            }
+
+            function join(){
+                if(globalArray.length>0){
+                    document.getElementById('display').innerHTML= globalArray.join('');
+                }
+            }
+        </script>
+    </body>
+</html>
