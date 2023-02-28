@@ -1,0 +1,27 @@
+<input id="todo-input">
+<button id="add-todo" onclick="addTodo()">Add todo</button>
+<ul id="todo-holder">
+
+</ul>
+<script>
+    const state = JSON.parse(localStorage.getItem('todos') || '[]')
+        function renderTodos(todos) {
+            const main = document.getElementById('todo-holder')
+            todos.forEach(todo => {
+                main.innerHTML += `<li class="todo-item">${todo}</li>`
+            });
+        }
+
+        renderTodos(state)
+        function addTodo() {
+            const el = document.getElementById('todo-input')
+            const text = el.value
+            state.push(text)
+            const main = document.getElementById('todo-holder')
+            localStorage.setItem('todos', JSON.stringify(state))
+            main.innerHTML += `<li class="todo-item">${text}</li>`
+            el.value = ''
+        }
+
+
+</script>
