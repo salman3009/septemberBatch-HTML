@@ -1,0 +1,13 @@
+<script>
+    let list=[{
+        fullName:"akash",
+        age:22
+    },{
+        fullName:"suresh",
+        age:44
+    }];
+    let result = list.map((obj)=>{
+            return {name:obj.fullName,eligible:obj.age+10,status:true}
+    });
+    console.log(result);
+</script>

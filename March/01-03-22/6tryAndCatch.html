@@ -1,0 +1,37 @@
+<!-- <script>
+    function reverseArray(input){
+        try{
+          let result = input.reverse();
+          return result;
+        }
+        catch(e){
+            console.log("error",e);
+        }
+    }
+    console.log(reverseArray([33,45]));
+    console.log(reverseArray(344));
+    console.log(reverseArray([33,45,5454]));
+    console.log(reverseArray([33,45,343,66,5656]));
+</script> -->
+
+<script>
+    function sumOfNumber(input){
+        try{
+          let result = input.reduce((a,b)=>{
+            return a+b;
+          })
+          if(result<=0){
+            throw new Error("zero is not allowed");
+            return;
+          }
+          return result;
+        }
+        catch(e){
+            console.log("error",e);
+        }
+    }
+    console.log(sumOfNumber([33,45]));
+    console.log(sumOfNumber(344));
+    console.log(sumOfNumber([0]));
+    console.log(sumOfNumber([33,45,343,66,5656]));
+</script>
