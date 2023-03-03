@@ -1,0 +1,37 @@
+Lexical environment
+scope chaining 
+hoisting
+execution context
+============================
+first class function:
+//function is called by his key not by function name.
+//best example you can take it from object.
+//if function is treated as variables is called first class function.
+=============================
+Higher order function:
+//Higer order is nothing but function is returning one more function.
+===============================================
+Javascript Engine:
+//our entire code will excute inside the call stack 
+//call stack will work LIFO.
+example:
+var a = 10;
+var b =  20;
+var c = a + b;
+console.log(c);
+
+Context:
+//Inside the javascript for each function context will be created
+//Inside the context you will have local memory and working code.
+//First inside the call stack global execution context will be created for you.
+//Global execution you will have all function name and variable registered there.
+//Because of global execution context hoisting is possible.
+
+lexical environment:
+//local memory + parent function access.
+
+scope chaining:
+For any variable what is the scope. From where to where we can access any variable or function.
+//scope chaining is possible because of lexical environment.
+==================================================
+
