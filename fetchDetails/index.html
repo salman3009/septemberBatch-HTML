@@ -1,0 +1,49 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="container">
+
+        </div>
+    </body>
+</html>
+<script>
+    function initialDetails(){
+       let parentElement = document.getElementById('container');
+       fetch('https://inshorts.deta.dev/news?category=science').then((response)=>{
+         return response.json();
+       }).then((res)=>{
+        for(let obj of res.data){
+             let imageElement = document.createElement('img');
+             imageElement.style.width="200px";
+             imageElement.style.height="200px";
+             imageElement.style.display = "block";
+             imageElement.src=obj.imageUrl;
+             parentElement.appendChild(imageElement);
+        }
+       })
+    }
+    initialDetails();
+</script>
+
+<!-- <script>
+    step1:
+    fetch()
+    step2:
+    fetch().then()
+    step3:
+    fetch().then(()=>{
+
+    })
+    step4:
+    fetch().then((response)=>{
+      return response.json();
+    })
+    step5:
+    fetch().then((response)=>{
+      return response.json();
+    }).then((res)=>{
+      console.log(res);
+    })
+</script> -->
