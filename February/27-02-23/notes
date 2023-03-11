@@ -1,0 +1,35 @@
+//let and const 
+//it is block scope variable 
+//it is advance syntax
+//instead of using var we can use let keyword 
+//let we cannot redeclare again
+//const is block scope variable 
+//const we cannot redeclare as well as we cannot reassign the value.
+//var we have so many drawbacks. please don't use that variable.
+======================================================
+Function Declaration:
+A function declaration also known as a function statement declares a function with a function keyword. The function declaration must have a function name.
+Function declaration does not require a variable assignment as they are standalone constructs and they cannot be nested inside a functional block.
+These are executed before any other code.
+The function in function declaration can be accessed before and after the function definition.
+Syntax:
+<script>
+ function addition(a,b){
+        return a+b;
+    }
+
+</script>
+
+A function Expression is similar to a function declaration without the function name.
+Function expressions can be stored in a variable assignment.
+Function expressions load and execute only when the program interpreter reaches the line of code.
+The function in function expression can be accessed only after the function definition.
+Syntax:
+
+<script>
+ const subtraction = (a,b)=>{
+        return a-b;
+    }
+</script>
+
+==========================================

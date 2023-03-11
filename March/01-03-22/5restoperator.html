@@ -1,0 +1,18 @@
+<script>
+    function SumOfArray(...input){
+        return input.reduce((a,b)=>{
+               return a+b;
+        })
+    }
+    console.log(SumOfArray(33,44,56,78));
+    console.log(SumOfArray(33,44,56,78,56,55));
+    console.log(SumOfArray(33,44,56,78,55,66,7,77));
+</script>
+
+<script>
+    function listOfName(...input){
+        return input;
+    }
+    console.log(listOfName('suresh','amol','sathish'));
+    console.log(listOfName('suresh','amol','sathish','prashant'));
+</script>

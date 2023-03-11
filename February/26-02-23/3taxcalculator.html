@@ -1,0 +1,36 @@
+<script>
+    function findTax(salary) {
+    let tax = 0;
+    try {
+        if (salary <= 0) {
+            throw new ValidationError("Salary not valid");
+
+
+        }
+        else{
+            switch (true) {
+        case salary > 0 && salary <= 500000:
+            tax = 0;
+            break;
+        case 1000000 >= salary && salary > 500000:
+            tax = salary * 0.1;
+            break;
+        case 1500000 >= salary && salary > 1000000:
+            tax = salary * 0.2;
+            break;
+        case salary > 1500000:
+            tax = salary * 0.3;
+            break;
+        default:
+        throw new ValidationError("missing case");
+    }
+        }
+    } catch (err) {
+        console.log(err);
+        return err.message;
+    }
+ 
+    return tax;
+}
+console.log(findTax(500000))
+</script>

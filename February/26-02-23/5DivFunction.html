@@ -1,0 +1,11 @@
+<script>
+    function createDiv(width, height, text){
+    let parent = document.getElementById("container");
+    let child = document.createElement("div");
+    let childText = document.createTextNode(text);
+    child.appendChild(childText);
+    child.style.width = width+"px";
+    child.style.height = height+"px";
+    parent.appendChild(child);
+}
+</script>

@@ -1,0 +1,16 @@
+<script>
+    function globalDisplay(){
+        console.log("inside the global display");
+        console.log("global display cityName",cityName);
+        innerMostDisplay();
+        function innerMostDisplay(){
+            var fullName = "amol"
+          console.log("inside the innerMostDisplay",fullName);
+          console.log("global display cityName",cityName);
+        }
+
+    }
+    var cityName = "Delhi";
+    globalDisplay();
+   
+</script>

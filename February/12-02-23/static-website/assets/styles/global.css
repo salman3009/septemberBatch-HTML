@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.bg-border{
+    background-color: #0e376c !important;
+}
+.nav-link
+{
+    color:white !important;
+}
+
+.btn-outline-success ,.btn-primary{
+    color: white !important;
+    border-color: #0e376c !important ;
+    background-color: #0e376c !important;
+}
+
+.fa-tasks{
+    font-size: 34px;
+    color: white;
+}
+.fa-briefcase{
+    font-size:50px;
+    color:#0e376c !important;
+}
+.margin-top-section{
+    margin-top: 30px;
+}
+
+.padding-section{
+    padding: 0 !important;
+}
+.box-top{
+    margin-top: 10px;
+}
+.card-body{
+    height: 250px !important;
+    overflow: auto;
+}
+
+.margin-bottom-section{
+    margin-bottom: 50px;
+}
+
+.image-setup{
+    background-image: url("../images/g1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    min-width: 25%;
+    height: 100px;
+    margin-right:7px;
+    background-color: red;
+    text-align: center;
+}
+
+.sub{
+    padding-top:25px;
+    color:white;
+}
+
+i{
+    padding-right: 14px;
+    display: inline-block;
+}

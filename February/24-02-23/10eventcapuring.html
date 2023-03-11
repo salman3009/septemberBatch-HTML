@@ -1,0 +1,37 @@
+<html>
+
+<head>
+ 
+       
+
+</head>
+
+<body>
+    <div id="parent" >
+       <button id="child">submit</button>
+    </div>
+    <script>
+
+        document.getElementById('child').addEventListener('click',childHandler);
+        document.getElementById('parent').addEventListener('click',parentHandler,true);
+        //event capturing will become true and event bubbling will become false
+        function parentHandler(event){
+             console.log("parent");
+             event.stopPropagation();
+        }
+        function childHandler(event){
+            console.log("child");
+            event.stopPropagation();
+        }
+      
+        //id grand-child
+        //id child
+        //id parent
+        //body
+        //html
+        //window
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+
+
+<html>
+    <head>
+       
+    </head>
+    <body>
+       <ul>
+        <li class="heading" id="listOne">pen</li>
+        <li class="heading" id="listTwo">pencil</li>
+        <li class="heading" id="listThree">eraser</li>
+       </ul>
+       <ul>
+        <li  id="listOne">car</li>
+        <li  id="listTwo">lorry</li>
+        <li  id="listThree">bus</li>
+       </ul>
+        <script>
+            var input = document.getElementsByTagName("li");
+            console.log(typeof input);
+            for(var obj of input){
+                obj.innerHTML = obj.innerHTML.toUpperCase();
+            }
+        </script>
+    </body>
+</html>

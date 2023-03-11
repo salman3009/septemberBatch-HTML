@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <style>
+        #parent{
+            width: 800px;
+            height: 800px;
+            background-color:red;
+        }
+        #child{
+            width: 400px;
+            height: 400px;
+            background-color:green;
+        }
+        #grand-child{
+            width: 200px;
+            height: 200px;
+            background-color:yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="parent" >
+        <div id="child">
+            <div id="grand-child">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('grand-child').addEventListener('click',grandchildHandler);
+        document.getElementById('child').addEventListener('click',childHandler);
+        document.getElementById('parent').addEventListener('click',parentHandler);
+        function parentHandler(event){
+            event.stopPropagation();
+            alert("parent");
+        }
+        function childHandler(event){
+            alert("child");
+            event.stopPropagation();
+        }
+        function grandchildHandler(event){
+            alert("grandchild");
+            event.stopPropagation();
+        }
+        //id grand-child
+        //id child
+        //id parent
+        //body
+        //html
+        //window
+    </script>
+    
+</body>
+
+</html>

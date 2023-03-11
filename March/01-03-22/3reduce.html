@@ -1,0 +1,34 @@
+<script>
+    let list=[{
+        fullName:"akash",
+        age:22,
+        developer:"FE",
+        amount:2000
+    },{
+        fullName:"suresh",
+        age:44,
+        developer:"FE",
+        amount:4000
+    },
+    {
+        fullName:"mokesh",
+        age:8,
+        developer:"BE",
+        amount:1000
+    },
+    {
+        fullName:"ajay",
+        age:19,
+        developer:"Full Stack",
+        amount:2000
+    }];
+    let result = list.filter((obj)=>{
+           return obj.developer === 'FE';
+    }).map((obj)=>{
+        return obj.amount;
+    }).reduce((a,b)=>{
+          return a+b;
+    })
+          
+    console.log(result);
+</script>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+         <!-- fullName:<input type="text" name="fullName" onkeyup="onkeyupHandler(event)"/> -->
+         fullName:<input type="text" name="fullName"  onkeydown="onkeyupHandler(event)"/>
+         <div id="demo"></div>
+        <script> 
+           var list=['car','pencil','person'];
+            function onkeyupHandler(event){
+                console.log(event.target.value);
+                event.target.value = event.target.value.toUpperCase();
+                
+                if(list.includes(event.target.value)){
+                    document.getElementById('demo').innerHTML = "please dont use common name";
+                }else{
+                    document.getElementById('demo').innerHTML = "";
+                }
+
+                if(event.target.value.length>10){
+                    event.target.disabled = true;
+                }
+                //it will stop further event of form tag.going to action attribute and finding the next page
+           
+            }
+
+        </script>
+    </body>
+</html>

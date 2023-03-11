@@ -1,0 +1,17 @@
+<script>
+    function test_divisors(low, high) {
+// we'll store all numbers and strings within an array
+// instead of printing directly to the console
+const output = [];
+for (let i = low; i <= high; i++) {
+// simply store the current number in the output array
+output.push(i);
+// check if the current number is evenly divisible by 3
+if (i % 3 === 0) { output.push('div3'); }
+}
+// return all numbers and strings
+console.log(output.join(" "));
+}
+
+</script>
+

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+            .box{
+                color:red;
+            }
+        </style>
+       
+    </head>
+    <body>
+      Enter the website name<input type="text" id="demo"/>
+      <button onClick="onSubmit()">submit</button>
+      <br/>
+      <a id="list">click here</a>
+        <script>
+            function onSubmit(){
+                var input = document.getElementById("list");
+            input.href = document.getElementById("demo").value;
+            input.name = "demo";
+            input.setAttribute("class","box");
+            input.setAttribute("dataTest","carry details");
+            // input.class="box";
+            // input.dataTest = "carry details";
+            }
+            
+        </script>
+    </body>
+</html>

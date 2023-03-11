@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="demo">
+             
+        </div>
+    </body>
+    <script>
+
+        //<p></p>
+        var element = document.createElement('p');
+
+        //hello world
+        var textElement = document.createTextNode("hello world");
+
+        //<p>hello world</p>
+        element.appendChild(textElement);
+
+        //<div id="demo"></div>
+        var input = document.getElementById('demo');
+      
+        //<div id="demo"><p>hello world</p></div>
+        input.appendChild(element);
+    </script>
+</html>

@@ -1,0 +1,19 @@
+<script>
+    var list={
+        fullName:"details",
+        age:22
+    };
+    //JSON.stringigy() -it will convert javascript object to json
+    var listTwo = JSON.stringify(list);
+    console.log(typeof listTwo,listTwo.age);
+    //JSON.parse() it will convert json to javascript object
+    listTwo = JSON.parse(listTwo);
+    console.log(typeof listTwo,listTwo.age);
+</script>
+
+<script>
+   var list= {
+        "fullName":"details",
+        "age":22
+    }
+</script>

@@ -1,0 +1,30 @@
+    <html>
+        <head>
+            <style>
+                #demo{
+                    width: 200px;
+                    height: 100px;
+                    border:1px solid black;
+                }
+            </style>
+
+        </head>
+        <body>
+            <div id="demo"></div>
+            <script> 
+        
+            // document.getElementById("demo").addEventListener('mouseover',function(event){
+            //     event.target.style.backgroundColor = "green";
+            //     event.target.style.width = "500px";
+            //     event.target.style.height = "500px";
+            // })
+
+            document.getElementById("demo").addEventListener('mouseover',(event)=>{
+                event.target.style.backgroundColor = "green";
+                event.target.style.width = "500px";
+                event.target.style.height = "500px";
+            })
+
+            </script>
+        </body>
+    </html>

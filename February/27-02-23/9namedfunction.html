@@ -1,0 +1,16 @@
+<script>
+    //calling same function again and again
+    //named function you can use it for recursive function call
+    //named function
+
+     function fiboseries(number){
+        if (number <= 1) return 1;
+            return fiboseries(number - 1) + fiboseries(number - 2);
+     }
+
+    const display = function fibo(number){
+        if (number <= 1) return 1;
+            return fibo(number - 1) + fibo(number - 2);
+    }
+    console.log(display(5));
+</script>

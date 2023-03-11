@@ -1,0 +1,38 @@
+<script>
+    const students = [
+{ name: "Ram", scores: [80, 95, 60] },
+{ name: "Mohan", scores: [85, 70, 90] },
+{ name: "Sai", scores: [60, 70, 80] },
+{ name: "Hemang", scores: [95, 90, 94] },
+];
+
+function highPerformers(students){
+    let finalPayload=students.filter((obj)=>{
+       
+        let averageScore = averageScoreCalculation(obj.scores);
+        if(averageScore>90){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }).map((obj)=>{
+          return{
+            name:obj.name,
+            average:averageScoreCalculation(obj.scores)
+          }
+    });
+
+    return finalPayload;
+
+}
+
+function averageScoreCalculation(input){
+    let sum = input.reduce((a,b)=>{
+               return a+b;
+        });
+     return sum/input.length
+}
+const res = highPerformers(students);
+console.log(res);
+</script>

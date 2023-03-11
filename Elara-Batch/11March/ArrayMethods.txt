@@ -1,0 +1,22 @@
+1.push 
+2.pop 
+3.shift 
+4.unshift 
+5.slice 
+6.splice 
+7.toString 
+8.join 
+9.split 
+10.concat 
+11.sort 
+12.reverse 
+13.includes 
+14.indexOf 
+15.isArray 
+16.for of 
+17.foreach 
+18.map 
+19.filter 
+20.reduce 
+21.some 
+22.every 

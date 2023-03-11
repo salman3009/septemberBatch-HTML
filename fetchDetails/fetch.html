@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="container">
+
+        </div>
+        <script>
+            function onLoadDetails(){
+                let list=[];
+                let parentElement = document.getElementById('container');
+               fetch('https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=tesco&apikey=demo').then((response)=>{
+                       return response.json();
+               }).then((res)=>{
+                   let list = res.bestMatches;
+                    for(let obj of res.bestMatches){
+                        let headingElement = document.createElement('h1');
+                        let textNode = document.createTextNode(obj['2. name']);
+                        headingElement.appendChild(textNode);
+                        parentElement.appendChild(headingElement);
+                    }
+               })
+            }
+            onLoadDetails();
+        </script>
+    </body>
+</html>

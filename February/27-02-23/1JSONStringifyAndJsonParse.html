@@ -1,0 +1,17 @@
+<script>
+    //JSON.stringify --> it will convert the entire data to string format
+    //JSON.Parse --> it will convert string to javascript object.
+    let list=[{
+        name:"akash",
+        age:11
+    },{
+        name:"amol",
+        age:44
+    }];
+    console.log(typeof list,list[0].name);
+    list = JSON.stringify(list);
+    console.log(typeof list,list[0].name);
+    list = JSON.parse(list);
+    console.log(typeof list,list[0].name)
+
+</script>

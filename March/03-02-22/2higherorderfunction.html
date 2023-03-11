@@ -1,0 +1,12 @@
+<script>
+    function globalDisplay(fullName,address){
+        console.log("My fullName is",fullName);
+        return function(){
+            console.log("My fullAddress is",address);
+        }
+    }
+    globalDisplay("akash","delhi");
+    globalDisplay("amol","delhi")();
+    let list = globalDisplay("suresh","delhi");
+    list();
+</script>

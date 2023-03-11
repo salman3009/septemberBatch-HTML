@@ -1,0 +1,60 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <ul>
+        <li class="heading" id="listOne">pen</li>
+        <li class="heading" id="listTwo">pencil</li>
+        <li class="heading" id="listThree">eraser</li>
+    </ul>
+    <p class="heading">welcome to html</p>
+    <p class="heading">welcome to css</p>
+    <p class="box">welcome to css</p>
+    <p class="box">welcome to css</p>
+    <div class="box" id="demo">welcome to javascript</div>
+    <script>
+        //selection with only tags
+        var result = document.querySelectorAll('p');
+        console.log(result.length);
+        for (var obj of result) {
+            console.log(obj);
+        }
+    </script>
+    <script>
+        //accessing only with class
+        var result = document.querySelectorAll('.box');
+        console.log(result.length);
+        for (var obj of result) {
+            console.log(obj);
+        }
+    </script>
+    <script>
+        //accessing only with id
+        var result = document.querySelectorAll('#demo');
+        console.log(result.length);
+        for (var obj of result) {
+            console.log(obj);
+        }
+    </script>
+    <script>
+        //accessing only with tag + class
+        var result = document.querySelectorAll('li.heading');
+        console.log(result.length);
+        for (var obj of result) {
+            console.log(obj);
+        }
+    </script>
+    <script>
+        //accessing only with tag + id
+        var result = document.querySelectorAll('div#demo');
+        console.log(result.length);
+        for (var obj of result) {
+            console.log(obj);
+        }
+    </script>
+</body>
+
+</html>

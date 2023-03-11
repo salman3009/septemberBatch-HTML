@@ -1,0 +1,60 @@
+Event:
+//any user actions either keyboard press on mouse action event will get trigger so that we can call the function for DOM manipulation
+1.onblur - input
+2.onchange - input 
+3.onsubmit - form
+4.onreset - form 
+5.onclick - anywhere
+6.onfocus - input
+7.onselect  - input
+8.onkeyup - input
+9.onkeydown input
+10.onkeypress - input
+11.onmouseover - anywhere
+12.onmouseout - anywhere
+13.onmouseup - anywhere
+14.onmousedown - anywhere
+15.ondblclick - anywhere
+16.onload  - body
+17.onerror - anywhere 
+//all event will return event object
+===============================================
+Event Listener:
+//We are going to attach event to some of the element.
+//whenever we target that particular element event listener will capture it and it will trigger a callback function.
+==================================================
+first class function
+//passing function as parameter is called first class function 
+//Inside the event listener we have two parameters first is event name and second one you can pass function as parameter so whenever it onvoke the particular event the function parameter will call the actual function.
+//please don't pass parenthesis for function parameter otherwise it will onvoke immediately
+======================================
+1.how to take input from user?
+2.how to write change and click event?
+3.how to apply css class or style dynmically?
+4.how create element and attach to parent div dynmically.
+5.event object and how to access value,id,name and prevent default 
+==================================================Global Scope:
+//any variable that is declare outside the function is called global scope
+//This variable we can access in any function.
+ 
+function scope:
+//any variable is declare inside the function is called funciton scope. 
+//we can use that variable only inside that particular function.
+==========================================
+eventListener:
+1.whatever event we have used everything will work on eventListener. Instead on onclick we need to use click.
+(please remove "on" keyword).
+
+first class function:
+//passing function name as parameter.
+===========================================
+Event Bubbling:
+//user action in the browser is called event.
+//One Event is getting called to another event in sequence of child to parent tree.
+//Normally in javascript whenever you use event inside the nested element event bubbling will happen default.
+//To avoid this problem you can pass event object and call the stopPropagation() method to stop further calling of event.
+//This problem occurs in click event handler.
+================================================
+
+
+

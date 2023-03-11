@@ -1,0 +1,47 @@
+callback function:
+They are going to call the function after some amount of time.
+array inbuild methods:
+//map,filter,reduce 
+//above method will work only with array.
+map:
+//The main aim is to change the array of objects.
+//map function will not change the original array.
+//map function will help to change both key and value.
+//map function will create new array.
+filter:
+//The main aim is to filter the data from set of data.
+//filter function will create new array.
+Real time Use case:
+//in real time mostly we will use filter + map function together.
+reduce:
+//The main aim is to add the set of data together 
+//reduce function will give new result.
+===============================================
+spread operator:
+//it will spread the array into individual values.
+//it will return new array.
+Rest operator:
+//it will combine individual values to array 
+//it will create new array.
+===========================================
+exception handling:
+try 
+catch 
+finally 
+//entire exception handling we should write inside the function.
+//if everything is fine only "try" block will run 
+//if some error happen in "try" block then "catch" will run 
+//In any scenarion whether is is going to "try" or "catch" "finally" will run always for all scenario.
+===========
+try:
+//the entire right code is written here.
+catch:
+//error is capture here.
+finally
+//it will run always.
+================
+
+
+
+
+
