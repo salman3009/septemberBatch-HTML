@@ -1,0 +1,50 @@
+Interview:
+1.html
+2.css
+3.javascript
+javascript is very much important.
+Topics in Javascript:
+1.primitive types and non primitives types 
+2.types of operator 
+3.Decision making statement 
+4.functions - callback/expression/IIFE/declarations/anonymous 
+5.loops 
+6.array 
+7.objects 
+8.array methods 
+9.es6 features 
+      1.let and const 
+      2.arrow function 
+      3.destructing 
+      4.spread operator 
+      5.class 
+      6.inheritance 
+      7.private members 
+10.sync and async  - setTimeout/setInterval
+12.promise 
+13.stack
+14.global excution context 
+15.lexical environment 
+16.scope chain 
+17.closure 
+18.function currying 
+19.hoisting 
+20.garbage collections 
+21.regular expression 
+22.fetch - get and post method 
+23.rest api call 
+24.json 
+25.session and local storage 
+26.What is DOM 
+27.string methods 
+28.what is procedure language 
+29.what is functional programming 
+30.what is object orinted language 
+32.what is prototype in javascript 
+33.bind,call,apply 
+34.prototype chain 
+
+
+
+
+
