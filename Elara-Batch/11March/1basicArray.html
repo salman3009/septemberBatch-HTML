@@ -32,6 +32,23 @@
     console.log(employeeList);
 
     //how to remove the element
-    
+    //removing value at the end position --> pop-->  O(1)
+    employeeList.pop();
+    console.log(employeeList);
+    //removing value at the front position -->shift -->O(n)
+    employeeList.shift();
+    console.log(employeeList);
+
+    //to remove specific value from array --> Splice-->O(n)
+    //first parameter is the index value 
+    //second parameter is the number of elements you want to delete.
+    //always it should be 1.
+    employeeList.splice(1,1);
+    console.log(employeeList);
+
+    //update =0(1)
+    employeeList[1] = "details";
+    console.log(employeeList);
+
 
 </script>
