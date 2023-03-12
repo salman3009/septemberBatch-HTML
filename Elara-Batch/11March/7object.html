@@ -16,6 +16,27 @@
     console.log(listCity['capital']);
 
     //updating the value
+    //if that particula key is already present it will update the value.
+    //if key is not present it will create new property inside the object.
     listCity.developedCity= 'Noida';
+
+    //delete the value 
+    delete listCity.developcity;
+    console.log(listCity);
+
+    //looping the object 
+    //only one loop that is supported for object
+    //key is user defined variable 
+    //key will return the keys of object.
+    for(let key in listCity){
+        console.log(key,listCity[key]);
+    }
+
+    //keys,values,entries 
+    //it will return the final value in the form of array
+    console.log(Object.keys(listCity));
+    console.log(Object.values(listCity));
+    console.log(Object.entries(listCity));
+
 
 </script>

@@ -1,0 +1,30 @@
+<script>
+    //spread --> we can use only with array and object 
+    //spread --> it will spread the array or object into individual values.
+    //spread --> it will do deep copy of array.
+    let employeeList = ['amol','sathish','prashant'];
+    let studentList =['navanath','rakesh','umang'];
+    let concatList=employeeList.concat(studentList);
+    console.log(concatList);
+    //one solution in this approach
+    let nestedList=[...employeeList,...studentList];
+    console.log(nestedList);
+    console.log(...employeeList)
+</script>
+
+
+<script>
+   // to create deep copy we can use spread operator
+    let indianCity=['delhi','mumbai'];
+    let foreignCity = [...indianCity];
+    console.log(indianCity);
+    console.log(foreignCity);
+    foreignCity.push('tokyo');
+    console.log(indianCity);
+    console.log(foreignCity);
+
+</script>
+
+
+
+

@@ -1,0 +1,22 @@
+<!-- <script>
+    let employeeDetails={
+        fullName:"akash",
+        age:34
+    };
+    let listDetails = employeeDetails;
+    listDetails.address = "chennai";
+    console.log("listDetails",listDetails);
+    console.log("employeeDetials",employeeDetails);
+</script> -->
+
+<script>
+    let employeeDetails={
+        fullName:"akash",
+        age:34
+    };
+    let listDetails = {...employeeDetails};
+    listDetails.address = "chennai";
+    console.log("listDetails",listDetails);
+    console.log("employeeDetials",employeeDetails);
+
+</script>

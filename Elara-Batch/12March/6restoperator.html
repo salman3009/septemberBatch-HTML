@@ -1,0 +1,24 @@
+<!-- <script>
+    function addition(a,b){
+        return a+b;
+    }
+    console.log(addition(44,55));
+    console.log(addition(44,55,20));
+    console.log(addition(44,55,55,66));
+</script> -->
+
+<script>
+    //rest operator
+    //it will convert individual values into one single array.
+    function addition(...res){
+        let sum = 0;
+        for(let input of res){
+            // sum+=input;
+            sum = sum + input
+        }
+           return sum;
+    }
+    console.log(addition(44,55));
+    console.log(addition(44,55,20));
+    console.log(addition(44,55,55,66));
+</script>

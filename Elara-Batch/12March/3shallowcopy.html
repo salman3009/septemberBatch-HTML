@@ -1,0 +1,26 @@
+<script>
+    //deep copy
+    //all primitives will have deep copy
+    //separate memory address.
+    let fullName = "akash";
+    let listName = fullName;
+    console.log(fullName);
+    console.log(listName);
+    listName = "rakesh";
+    console.log(fullName);
+    console.log(listName);
+</script>
+
+
+<script>
+    //array and object will have shallow copy
+    //both variable will refer to same address
+    let indianCity=['delhi','mumbai'];
+    let foreignCity = indianCity;
+    console.log(indianCity);
+    console.log(foreignCity);
+    foreignCity.push('tokyo');
+    console.log(indianCity);
+    console.log(foreignCity);
+
+</script>
