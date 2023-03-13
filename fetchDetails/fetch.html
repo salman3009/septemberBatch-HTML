@@ -1,28 +1,56 @@
 <html>
-    <head>
 
-    </head>
-    <body>
-        <div id="container">
+<head>
 
-        </div>
-        <script>
-            function onLoadDetails(){
-                let list=[];
-                let parentElement = document.getElementById('container');
-               fetch('https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=tesco&apikey=demo').then((response)=>{
-                       return response.json();
-               }).then((res)=>{
-                   let list = res.bestMatches;
-                    for(let obj of res.bestMatches){
-                        let headingElement = document.createElement('h1');
-                        let textNode = document.createTextNode(obj['2. name']);
-                        headingElement.appendChild(textNode);
-                        parentElement.appendChild(headingElement);
-                    }
-               })
+</head>
+
+<body>
+    Enter the Currency Details:<input type="text" name="currency" onChange="onChangeHandler(event)" />
+    <div id="container">
+
+    </div>
+    <script>
+        let list = [];
+        function onLoadDetails() {
+
+            fetch('https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=tesco&apikey=demo').then((response) => {
+                return response.json();
+            }).then((res) => {
+                list = res.bestMatches;
+                bindingDetails(list);
+            })
+        }
+        onLoadDetails();
+
+        function bindingDetails(list) {
+            let parentElement = document.getElementById('container');
+            for (let obj of list) {
+                let headingElement = document.createElement('h1');
+                let textNode = document.createTextNode(`${obj['4. region']}-${obj['8. currency']}`);
+                headingElement.appendChild(textNode);
+                parentElement.appendChild(headingElement);
             }
-            onLoadDetails();
-        </script>
-    </body>
+        }
+
+        function onChangeHandler(event) {
+            let inputName = event.target.value;
+            let parentElement = document.getElementById('container');
+            while (parentElement.firstChild) {
+                parentElement.removeChild(parentElement.firstChild);
+            }
+            let result = list.filter((obj) => {
+                return obj['8. currency'].toLowerCase() === inputName.toLowerCase();
+            });
+            //it will create one more copy of array
+            if(result.length>0){
+                bindingDetails(result);
+            }
+            else{
+                bindingDetails(list);
+            }
+           
+        }
+    </script>
+</body>
+
 </html>
