@@ -1,0 +1,35 @@
+<script>
+    //filter method will filter the specific type of data
+    //filter method will return new array.
+
+     const productList=[
+        {
+            name:'samsung',
+            specification:'12gb',
+            color:'red',
+            amount:20000,
+            discount:0,
+            available:true
+        },
+        {
+            name:'sony',
+            specification:'12gb',
+            color:'red',
+            amount:50000,
+            discount:0,
+            available:false
+        },
+        {
+            name:'mx',
+            specification:'52gb',
+            color:'red',
+            amount:10000,
+            discount:0,
+            available:true
+        }
+    ];
+    const list = productList.filter((obj,index)=>{
+               return obj.available === true && obj.amount>5000;
+    });
+    console.log(list);
+</script>

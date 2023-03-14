@@ -1,0 +1,36 @@
+<script>
+    //False value are 0,false,"",null,undefined
+    if(0){
+        alert(0);
+    }
+    if(false){
+        alert(false);
+    }
+    if(""){
+        alert("");
+    }
+    if(null){
+        alert(null);
+    }
+    if(undefined){
+        alert(undefined);
+    }
+    if(3*"aa"){
+        alert(NaN);
+    }
+    //space is counted inside the javascript
+    if("   "){
+        alert("it will not enter it is true value")
+    }
+    let list =[];
+    if(list.length){
+         alert("array is zero");
+    }
+    let obj ={};
+    if(Object.keys(obj).length){
+       alert("object is zero"); 
+    }
+    //isNaN it is predefined method it will return true if some error is there.
+    //it will return false if everything is fine.
+    console.log(isNaN(3*'a'));
+</script>
