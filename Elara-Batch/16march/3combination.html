@@ -1,0 +1,71 @@
+<script>
+    const stateList = [
+        {
+            name: "Karnataka",
+            district: [
+                {
+                    name: "kasa",
+                    city: [{
+                        cityName: "rectangle"
+                    },
+                    {
+                        cityName: "square"
+                    }]
+                }
+            ]
+        },
+        {
+            name: "Punjab",
+            district: [
+                {
+                    name: "chandigarh",
+                    city: [{
+                        cityName: "hexa"
+                    },
+                    {
+                        cityName: "poly"
+                    }]
+                },
+                {
+                    name: "kulgam",
+                    city: [{
+                        cityName: "hexa-2"
+                    },
+                    {
+                        cityName: "poly-2"
+                    }]
+                }
+            ]
+        },
+        {
+            name: "UP",
+            district: [
+                {
+                    name: "lucknow",
+                    city: [{
+                        cityName: "octa"
+                    },
+                    {
+                        cityName: "ten"
+                    }]
+                }
+            ]
+        }
+    ];
+
+    let result = stateList.filter((obj)=>{
+       return obj.name.toLowerCase() === "punjab".toLowerCase();
+    })[0].district.filter((obj)=>{
+        return obj.name.toLowerCase() === "chandigarh".toLowerCase();
+    })[0].city.map((obj)=>{
+        return obj.cityName;
+    }).includes('poly');
+    console.log(result);
+
+</script>
+
+<script>
+    let list=[33,44,55,66];
+    let resultTwo = list.includes(66);
+    console.log(resultTwo);
+</script>

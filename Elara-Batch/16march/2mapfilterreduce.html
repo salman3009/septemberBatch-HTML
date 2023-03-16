@@ -1,0 +1,39 @@
+<script>
+    const productList=[
+        {
+            name:'samsung',
+            specification:'12gb',
+            color:'red',
+            amount:20000,
+            discount:0,
+            available:true
+        },
+        {
+            name:'sony',
+            specification:'12gb',
+            color:'red',
+            amount:50000,
+            discount:0,
+            available:false
+        },
+        {
+            name:'mx',
+            specification:'52gb',
+            color:'red',
+            amount:10000,
+            discount:0,
+            available:true
+        }
+    ];
+
+    let result = productList.filter((obj)=>{
+              return obj.available === true;
+    }).map((obj)=>{
+          return obj.amount;
+    }).reduce((a,b)=>{
+        return a+b;
+    }).toString();
+    console.log(result);
+
+   
+</script>
