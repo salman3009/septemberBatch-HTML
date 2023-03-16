@@ -1,0 +1,86 @@
+<script>
+    //Event handling in js
+    //how to access the element from DOM 
+    //localstorage details
+    //how to write function 
+    //what is json.stringify and json.parse 
+    //how to bind dynamic html from js
+
+</script>
+
+<!-- <html>
+    <head>
+
+    </head>
+    <body>
+          <button onclick="onSubmitHandler()">Submit</button>
+    </body>
+    <script>
+        function onSubmitHandler(){
+            alert("on submit");
+        }
+
+    </script>
+</html> -->
+
+
+<!-- <html>
+    <head>
+
+    </head>
+    <body>
+         <ul id="demo">
+
+         </ul>
+    </body>
+    <script>
+        let parent = document.getElementById('demo');
+        parent.innerHTML = "<li>hello world<//li>";
+
+    </script>
+</html> -->
+
+
+<!-- <html>
+    <head>
+
+    </head>
+    <body>
+         <ul id="demo">
+
+         </ul>
+    </body>
+    <script>
+        let parent = document.getElementById('demo');
+        let input = "hello world";
+        parent.innerHTML = "<li>"+input+"</li>";
+
+    </script>
+</html> -->
+
+<script>
+    //JSON - Javscript object notation
+    //it is similar to javascript object but keys will be in double quotes.
+    //    {
+    //     "fullName":"amol",
+    //     "age":33,
+    //     "status":true
+    //    }
+    //JSON.stringify and JSON.parse
+    let obj ={
+        fullName:"amol",
+        age:34
+    }
+    console.log(typeof obj);
+
+    let result = JSON.stringify(obj);
+    console.log(typeof result,result);
+    //it will convert into json -- string format
+    //to send data from frontend to backend
+
+    let resultTwo = JSON.parse(result);
+    console.log(typeof resultTwo,result);
+    //it will convert json into object 
+    //any data receiving form backend to frontend
+
+</script>
